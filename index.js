@@ -34,9 +34,7 @@ function setInfoHome(res) {
     name.textContent = res.name;
     profession.textContent = res.profession;
 
-
     isLoading = false;
     loading.style.display = 'none';
     home.style.display = 'block';
-    console.log(res);
 }
