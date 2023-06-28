@@ -65,6 +65,22 @@ body {
     font-weight: 400;
 }
 
+.btn {
+  padding: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #221f1f;
+  cursor: pointer;
+}
+.btn-secundary {
+  background: #F4F3F9;
+  color: #221f1f;
+}
+.btn-primary {
+  background: #221f1f;
+  color: #FFFFFF;
+}
+
 .loading {
     position: absolute;
     left: 50%;
