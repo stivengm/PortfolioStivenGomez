@@ -1,6 +1,48 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F3F9;
+}
+.navbar {
+  height: 60px;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,.2) 0%, rgba(244,243,249,1) 90%);
+}
+
+#home {
+  position: relative;
+  height: 100vh;
+}
+.section_arrow_down {
+  position: absolute;
+  bottom: calc(0px + 75px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_arrow_down > img {
+  width: 37px;
+  cursor: pointer;
+  animation-name: moviendrew;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;	
+}
+@keyframes moviendrew {
+  0% {
+      transform: translateY(0px);
+  }
+  100% {
+      transform: translateY(20px);
+  }
+}
 .center-info {
     position: absolute;
     top: 50%;
